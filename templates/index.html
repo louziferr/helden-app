@@ -1,0 +1,12 @@
+{% extends 'base.html'%} {% block inhalt %}
+<h1>{{ name }}s Website</h1>
+
+<div class="helden">
+  {% for held in helden %}
+  <p>{{held}}</p>
+  {% endfor %}
+</div>
+
+<a href="/neu">Neuer Name</a>
+
+{% endblock %}
