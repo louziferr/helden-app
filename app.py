@@ -24,7 +24,6 @@ def neu():
         # Neuen Namen in db/helden.json speichern
         with open('db/helden.json', 'w', encoding='utf-8') as f:
             json.dump(helden, f)
-
         return redirect('/')
     else:
         # Die Methode ist GET
