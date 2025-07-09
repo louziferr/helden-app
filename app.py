@@ -25,4 +25,7 @@ def neu():
         return render_template('neuer_name.html')
 
 # App starten
+
+print('App startet')
+
 app.run(debug=True)
