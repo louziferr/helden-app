@@ -1,1 +1,14 @@
-["Batman", "Pikachu", "Superman"]
+{
+    "Batman": {
+        "slogan": "Der Retter der Nacht.",
+        "beschreibung": "Hinter Batman verbirgt sich der Milliardär Bruce Wayne. Als Kind musste  er nach einem Theaterbesuch mit ansehen, wie ein Straßenräuber seine  Eltern, Thomas und Martha Wayne, in einer dunklen Gasse erschießt."
+    },
+    "Pikachu": {
+        "slogan": "Eine kleine Elektromaus.",
+        "beschreibung": "Pikachu ist ein gelbes, mausähnliches Pokémon vom Typ Elektro. Es hat einen runden Kopf, lange, schwarze Ohren, rote Backentaschen, in denen es Elektrizität speichern kann, und einen blitzförmigen Schwanz. Pikachu ist bekannt für seine Fähigkeit, Elektrizität zu erzeugen und einzusetzen, zum Beispiel in Form des Angriffs Donnerblitz"
+    },
+    "Spongebob": {
+        "slogan": "Ein gelber Schwamm.",
+        "beschreibung": "SpongeBob Schwammkopf ist eine Zeichentrickfigur und die Hauptfigur der gleichnamigen Serie. Er ist ein gelber, quadratischer Schwamm, der in einer Ananas in der Unterwasserstadt Bikini Bottom lebt."
+    }
+}
