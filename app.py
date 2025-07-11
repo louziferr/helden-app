@@ -28,6 +28,13 @@ def neu():
     else:
         # Die Methode ist GET
         return render_template('neuer_name.html')
+    
+    # Route definieren
+@app.route('/held')
+def held():
+    name = request.args.get('name')
+    # TODO Website für einen einzelnen Helden implementieren
+    return name
 
 # App starten
 app.run(debug=True)
