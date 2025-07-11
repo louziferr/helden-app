@@ -102,3 +102,17 @@ label {
   display: flex;
   align-items: start;
 }
+
+@media (min-width: 800px) {
+  .grid-2 {
+    width: 100%;
+    max-width: 1200px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .back-button p {
+    font-size: 30px;
+  }
+}
