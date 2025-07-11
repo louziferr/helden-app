@@ -6,16 +6,11 @@
   </div>
 </div>
 
-<h1>Batman</h1>
+<h1>{{ name }}</h1>
 
 <div class="grid-2">
-  <p class="slogan">Der Retter der Nacht.</p>
-
-  <p class="beschreibung">
-    Hinter Batman verbirgt sich der Milliardär Bruce Wayne. Als Kind musste er
-    nach einem Theaterbesuch mit ansehen, wie ein Straßenräuber seine Eltern,
-    Thomas und Martha Wayne, in einer dunklen Gasse erschießt.
-  </p>
+  <p class="slogan">{{ held['slogan'] }}</p>
+  <p class="beschreibung">{{ held['beschreibung'] }}</p>
 </div>
 
 {% endblock %}
