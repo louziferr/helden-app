@@ -1,6 +1,16 @@
 {% extends 'base.html'%} {% block inhalt %}
 <h1>{{ name }}s Website</h1>
 
+<div class="container">
+  <img
+    class="naruto-bild"
+    src="/static/img/naruto.jpg"
+    alt="Naruto"
+    width="60%"
+  />
+  <div class="center">Helden</div>
+</div>
+
 <div class="helden">
   {% for held in helden %}
   <p>{{held}}</p>

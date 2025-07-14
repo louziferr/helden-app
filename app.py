@@ -33,14 +33,11 @@ def neu():
 @app.route('/held')
 def held():
     name = request.args.get('name')
-
     if not name or name.capitalize() not in helden:
         # name nicht in Dictionary vorhanden oder
         # kein Name als Request-Parameter: Zurück zur Startseite
         return redirect('/')
-
     name = name.capitalize()
-
     return render_template('held.html', name=name, held=helden[name])
 
 # App starten
