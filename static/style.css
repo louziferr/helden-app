@@ -52,6 +52,8 @@ label {
   list-style-type: none;
   font-size: 6vw;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .input_name {

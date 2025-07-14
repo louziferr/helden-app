@@ -13,7 +13,7 @@
 
 <div class="helden">
   {% for held in helden %}
-  <p>{{held}}</p>
+  <a href="/held?name={{ held }}">{{held}}</a>
   {% endfor %}
 </div>
 
